@@ -13,7 +13,8 @@ elsif array.size == 3
   array.join(", ")
 
 elsif array.size > 3
-  
+  last_element = array[array.size - 1]
+
 
 end
 end
