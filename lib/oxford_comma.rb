@@ -12,5 +12,8 @@ elsif array.size == 3
   array.push("and #{third_element}")
   array.join(", ")
 
+elsif array.size > 3
+  
+
 end
 end
