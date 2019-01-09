@@ -17,7 +17,5 @@ elsif array.size > 3
   array.pop
   array.push("and #{last_element}")
   array.join(", ")
-
-
 end
 end
