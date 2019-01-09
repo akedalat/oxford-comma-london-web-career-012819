@@ -14,6 +14,9 @@ elsif array.size == 3
 
 elsif array.size > 3
   last_element = array[array.size - 1]
+  array.pop
+  array.push("and #{last_element}")
+  array.join(", ")
 
 
 end
