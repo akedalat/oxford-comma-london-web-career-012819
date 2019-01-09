@@ -10,7 +10,7 @@ elsif array.size == 3
   third_element = array[2]
   array.pop
   array.push("and #{third_element}")
-  
-  
+  array.join(",")
+
 end
 end
